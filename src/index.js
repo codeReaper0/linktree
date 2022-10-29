@@ -8,10 +8,12 @@ root.render(
   <main>
     <section>
       <img
-        src="../public/avatar.jpg"
+        src="/avatar.jpg"
+        id="profile__img"
         alt="Tella Boluwatife"
-        className="w-[88px] h-[88px] rounded-full align-middle"
+        className="w-[88px] h-[88px] rounded-full align- object-cover"
       ></img>
+      <h1 className="font-bold text-xl">Tella Boluwatife</h1>
     </section>
   </main>
 );
