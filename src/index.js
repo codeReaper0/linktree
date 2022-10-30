@@ -18,13 +18,33 @@ root.render(
 
     <section className="space-y-6">
       <a
+        href="https://twitter.com/codeReaper01"
+        type="button"
+        id="twitter"
+        target="_blank"
+        className="text-lg font-medium w-full bg-[#EAECF0] border border-[#EAECF0] py-6 text-center rounded-lg"
+      >
+        Twitter Link
+      </a>
+
+      <a
+        href="#"
+        type="button"
+        id="slack"
+        target="_blank"
+        className="hidden text-lg font-medium w-full bg-[#EAECF0] border border-[#EAECF0] py-6 text-center rounded-lg"
+      >
+        Slack username: CodeReaper0
+      </a>
+
+      <a
         href="https://training.zuri.team/"
         type="button"
         id="btn_zuri"
         target="_blank"
         className="text-lg font-medium w-full bg-[#EAECF0] border border-[#EAECF0] py-6 text-center rounded-lg"
       >
-        Twitter Link
+        Zuri Team
       </a>
 
       <a
@@ -35,7 +55,7 @@ root.render(
         title="This is where you find books about design and coding"
         className="text-lg font-medium w-full bg-[#EAECF0] border border-[#EAECF0] py-6 text-center rounded-lg"
       >
-        Zuri Team
+        Zuri Books
       </a>
     </section>
   </main>
