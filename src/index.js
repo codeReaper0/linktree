@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.Fragment>
-    <main className="max-w-6xl mx-auto pt-11 pb-8 lg:py-16 px-4 xl:px-0">
+    <main className="max-w-6xl mx-auto pt-11 pb-8 lg:py-16 px-4 lg:max-w-4xl xl:px-0">
       <section className="flex flex-col items-center gap-6 mb-14">
         <img
           src="/avatar.jpg"
