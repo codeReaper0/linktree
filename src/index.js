@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.Fragment>
-    <main className="max-w-6xl mx-auto py-16">
+    <main className="max-w-6xl mx-auto pt-11 pb-8 lg:py-16 px-4 xl:px-0">
       <section className="flex flex-col items-center gap-6 mb-14">
         <img
           src="/avatar.jpg"
@@ -146,11 +146,11 @@ root.render(
         </div>
       </section>
     </main>
-    <footer className="py-12">
-      <section className="flex justify-between items-center py-6 max-w-7xl mx-auto border-t border-t-gray-200">
-        <img src="/Zuri_Logo.png" />
+    <footer className="pt-8 lg:pt-12 pb-2 xl:pb-12 px-4 xl:px-0">
+      <section className="flex flex-col md:flex-row gap-4 md:gap-0 md:justify-between md:items-center py-8 max-w-7xl mx-auto border-t border-t-gray-200">
+        <img src="/Zuri_Logo.png" className="max-w-[138px] lg:max-w-[186px]" />
         <p className="text-gray-500">HNG Internship 9 Frontend Task</p>
-        <img src="/I4G.png" />
+        <img src="/I4G.png" className="max-w-[99px] lg:max-w-[132px]" />
       </section>
     </footer>
   </React.Fragment>
